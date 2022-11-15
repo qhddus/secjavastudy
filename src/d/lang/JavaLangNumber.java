@@ -36,10 +36,10 @@ public class JavaLangNumber {
 		System.out.println("Character min="+(int)Character.MIN_VALUE+" max="+(int)Character.MAX_VALUE);
 	}
 	public void integerMinMaxCheckBinary() {
-		System.out.println("Integer BINARY min="+Integer.toBinaryString(Integer.MIN_VALUE));
-		System.out.println("Integer BINARY max="+Integer.toBinaryString(Integer.MAX_VALUE));
+		System.out.println("Integer BINARY min="+Integer.toBinaryString(Integer.MIN_VALUE));	//2진수 최소값
+		System.out.println("Integer BINARY max="+Integer.toBinaryString(Integer.MAX_VALUE));	//2진수 최대값
 		
-		System.out.println("Integer HEX min="+Integer.toHexString(Integer.MIN_VALUE));
-		System.out.println("Integer HEX min="+Integer.toHexString(Integer.MAX_VALUE));
+		System.out.println("Integer HEX min="+Integer.toHexString(Integer.MIN_VALUE));			//16진수 최소값
+		System.out.println("Integer HEX min="+Integer.toHexString(Integer.MAX_VALUE));			//16진수 최대값
 	}
 }
